@@ -39,7 +39,7 @@ export const RootLayout = () => {
                     </Link>
                 </div>
                 <div className='flex justify-center items-center font-semibold text-[#f4f4f4]'>
-                    <button className='flex px-2 py-2 rounded-t-md hover hover:bg-[#f4f4f4] hover:text-[#123941] justify-center items-center'>
+                    <button className='flex px-2 py-2 rounded-t-md hover hover:text-red-600 justify-center items-center'>
                         <LogOut size={20} />
                     </button>
                 </div>
