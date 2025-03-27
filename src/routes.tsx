@@ -6,6 +6,8 @@ import { SettingsPage } from './app/main/settings';
 import { RootLayout } from './app/main/layout';
 import { AuthLayout } from './app/auth/layout';
 import { OnboardLayout } from './app/onboard/layout';
+import { AuthLogin } from './app/auth/login';
+import { AuthRegister } from './app/auth/register';
 
 
 export function Routes() {
@@ -22,8 +24,8 @@ export function Routes() {
 
 
         <Route path='/auth' element={<AuthLayout />}>
-          <Route path='login' element={<h1>Login</h1>} />
-          <Route path='register' element={<h1>Register</h1>} />
+          <Route path='login' element={<AuthLogin/>} />
+          <Route path='register' element={<AuthRegister/>} />
         </Route>
 
         <Route path='/onboard' element={<OnboardLayout />}>
